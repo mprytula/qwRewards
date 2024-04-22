@@ -1,0 +1,19 @@
+name: qwRewards
+version: 1.0.0
+main: etty.qweinke.qwrewards.Plugin
+author: devQweinke
+website: https://etty.shop
+api-version: '1.20'
+
+commands:
+  rewards:
+    description: "This is a command"
+    usage: "/reward <nickname>"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
+
+  giftdonate:
+    description: "This is a command"
+    usage: "/giftdonate <nickname>"
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"

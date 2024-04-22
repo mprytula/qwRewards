@@ -1,0 +1,37 @@
+#                        ____                              __
+#        ____ __      __/ __ \___ _      ______ __________/ /____
+#       / __ `/ | /| / / /_/ / _ \ | /| / / __ `/ ___/ __  / ___/
+#      / /_/ /| |/ |/ / _, _/  __/ |/ |/ / /_/ / /  / /_/ (__  )
+#      \__, / |__/|__/_/ |_|\___/|__/|__/\__,_/_/   \__,_/____/
+#        /_/
+#
+#       qwRewards main configuration
+#       Source code:
+#       Author: qweinke
+#       Discord: dev_qweinke
+#       Website: https://etty.shop
+
+database:
+  name: "rewards"
+  username: "admin"
+  password: "qwerty"
+  ip: "localhost"
+  port: 3306
+  connections: 3
+
+gui_title: "&l&6Хранилище наград"
+lang: "ru.yml"
+
+rewards:
+  vip:
+    material: "minecraft:stone"
+    permission: "group.vip"
+    permissionForSend: "group.shadow"
+    command: "lp user <player_name> parent add vip"
+    displayname: "&2VIP"
+  premium:
+    material: "minecraft:granite"
+    permission: "group.premium"
+    permissionForSend: "group.ghost"
+    command: "lp user <player_name> parent add premium"
+    displayname: "&ePREMIUM"
